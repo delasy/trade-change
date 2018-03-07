@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Check</title>
+    <desc>Created with Sketch.</desc>
+    <!--<defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.696588%" id="linearGradient-1">
+            <stop stop-color="#8FD513" offset="0%"></stop>
+            <stop stop-color="#309308" offset="100%"></stop>
+        </linearGradient>
+    </defs>-->
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form" transform="translate(-46.000000, -181.000000)">
+            <g id="Progress" transform="translate(32.000000, 182.000000)">
+                <g id="1" transform="translate(9.000000, 0.000000)">
+                    <g id="Check" transform="translate(6.000000, 0.000000)">
+                        <circle id="Oval-2" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square" cx="36.5" cy="36.5" r="36.5"></circle>
+                        <path d="M50.5845508,28.8005882 C49.9032773,28.1229412 48.8023535,28.1229412 48.1228359,28.8005882 L33.3560586,43.5182353 L25.9726699,36.1594118 C25.2913965,35.4817647 24.1904727,35.4817647 23.5109551,36.1594118 C22.8314375,36.8370588 22.8314375,37.9347059 23.5109551,38.6123529 L32.1252012,47.1976471 C32.8064746,47.8752941 33.9073984,47.8752941 34.586916,47.1976471 L50.5845508,31.2535294 C51.2640684,30.5776471 51.2640684,29.4782353 50.5845508,28.8005882 Z" id="Shape" fill="#80CB12"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

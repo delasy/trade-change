@@ -1,0 +1,46 @@
+{
+  "name": "delasy/trade-change",
+  "description": "trade-change.com web-application.",
+  "keywords": ["crypto", "change", "trade", "trade-change", "exchange"],
+  "license": "Apache-2.0",
+  "type": "project",
+  "require": {
+    "php": ">=7.0.0",
+    "ext-openssl": "*",
+    "ext-mbstring": "*",
+    "ext-tokenizer": "*",
+    "ext-xml": "*",
+    "ext-ctype": "*",
+    "ext-json": "*",
+    "fideloper/proxy": "3.3",
+    "laravel/framework": "5.5.35",
+    "laravel/tinker": "1.0.3"
+  },
+  "autoload": {
+    "classmap": [
+      "database/seeds"
+    ],
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+      "@php artisan key:generate"
+    ],
+    "post-autoload-dump": [
+      "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+      "@php artisan package:discover"
+    ],
+    "tables-hard-reset": [
+      "@php artisan migrate:refresh --seed --force",
+      "@php artisan db:seed --class=TestData --force"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

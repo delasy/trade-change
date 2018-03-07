@@ -1,0 +1,19 @@
+# nodejs
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# laravel
+public/hot
+public/storage
+storage/*.key
+.env
+
+# composer
+vendor/
+composer.lock
+
+# vagrant
+.vagrant/
+Homestead.json
+Homestead.yaml

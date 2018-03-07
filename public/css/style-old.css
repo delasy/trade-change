@@ -1,0 +1,315 @@
+body{font-family:Rubik,sans-serif;font-weight:400;color:#fff;font-size:15px;line-height:1}
+h1{font-size:27px;font-weight:700;text-align:left}
+h2,.h2{font-size:21px;font-weight:500;line-height:22px;margin:20px 0}
+h3,.h3{font-size:17px;line-height:22px;margin:20px 0}
+ul{list-style:none;padding:0}
+hr{border-top:1px solid rgba(151,151,151,0.25)}
+button:focus,a:focus{outline:none!important}
+a,a:hover{color:#36a3ff}
+::-webkit-inner-spin-button{display:none}
+::-webkit-clear-button{display:none}
+
+.bg-page-content{background-image:url('/images/bg.png')}
+.main{position:relative;min-height:580px}
+.error{color:#ff2929}
+.scrollable-content{height:682px;overflow-y:scroll}
+.scrollable-content::-webkit-scrollbar{display:none}
+.fade-top{background-image:linear-gradient(to bottom,#2e3a61,rgba(0,0,0,0));height:60px;width:100%;position:absolute;top:0;z-index:1}
+.fade-bottom{background-image:linear-gradient(to top,#181533,rgba(0,0,0,0));height:100px;width:100%;position:absolute;bottom:0;z-index:1}
+.tradechange-input input,.tradechange-input select{border:none;border-bottom:2px solid rgba(255,255,255,0.5);border-radius:0;background-color:transparent;-webkit-box-shadow:none;box-shadow:none;color:#fff;font-size:19px;font-weight:300;padding:0;margin-top:11px;height:38px}
+.tradechange-input input:-webkit-autofill{-webkit-box-shadow: 0 0 0 30px #070707 inset;-webkit-text-fill-color:#fff!important;}
+.tradechange-input input[type="date"]::-webkit-calendar-picker-indicator{opacity:1;display:block;color:transparent;background-size:14px 14px;cursor:pointer}
+.tradechange-input.has-error input,.tradechange-input.has-error input:focus{-webkit-box-shadow:none;box-shadow:none;border-color:#cc0a0a}
+.tradechange-input.has-error input,.tradechange-input.has-error label{color:#ff2929}
+.tradechange-input.with-image input{padding-right:30px}
+.tradechange-input input:focus,.tradechange-input select:focus{border:none;border-bottom:2px solid rgba(255,255,255,0.5);-webkit-box-shadow:none;box-shadow:none}
+.tradechange-input label{margin:0;position:absolute;top:16px;font-size:19px;font-weight:300;line-height:1.42857143;cursor:text;transition:250ms ease-in}
+.tradechange-input select:focus ~ label,.tradechange-input select.not-empty ~ label,.tradechange-input input:focus ~ label,.tradechange-input input.not-empty ~ label{top:0;font-size:11px;font-weight:500;line-height:1;transition:0s}
+.tradechange-input input:focus ~ label{transition:250ms ease-out}
+.tradechange-input img{width:25px;height:24px;position:absolute;top:16px;right:16px}
+.tradechange-input input:-webkit-autofill{-webkit-animation-name:autofill;-webkit-animation-fill-mode:both}
+.tradechange-input .help-block{font-size:13px;color:#6d7190}
+.tradechange-btn a{padding:12px 15px;font-size:15px;color:#fff;background:none;cursor:pointer}
+.tradechange-btn.btn,.tradechange-btn{border-radius:25px;border:solid 1px rgba(255,255,255,0.25);padding:12px 15px;font-size:15px;color:#fff;background:none}
+a.tradechange-btn:hover:not(:disabled){color:#fff;background-color:#FF6C27}
+.tradechange-btn.btn-primary,.tradechange-btn.btn-primary:disabled:hover{padding:10px 12px 13px;font-size:17px;font-weight:700;background-image:linear-gradient(to bottom,#ff7f08,#f85300);box-shadow:inset 0 -3px 0 0 #d63400;border:none}
+.tradechange-btn.btn-primary:hover:not(:disabled){background-image:linear-gradient(to bottom,#8fd513,#309308);box-shadow:inset 0 -3px 0 0 #2b7300;border:none}
+.tradechange-btn.btn-link{font-size:13px;line-height:1;color:#36a3ff;text-decoration:none;border:none}
+.tradechange-btn.btn-link:hover{text-decoration:underline}
+.login button.tradechange-btn.btn-test{width:auto;}
+.login button.tradechange-btn.btn-test.left{margin-right:6px;}
+a.tradechange-link{font-size:13px;line-height:1;color:#36a3ff;text-decoration:none}
+a:hover.tradechange-link,a:focus.tradechange-link{text-decoration:underline}
+.tradechange-icon{display:inline-flex;vertical-align:middle;min-height:15px}
+.tradechange-icon svg{fill:#FF6E0A}
+.tradechange-btn:hover .tradechange-icon svg{fill:#fff}
+.tradechange-icon.icon-left{margin-right:5px}
+.tradechange-icon.icon-right{margin-left:5px}
+.tradechange-pagination > li > a,.tradechange-pagination > li > span{position:relative;float:left;padding:6px 14px;margin-left:6px;line-height:1.42857143;color:#fff;text-decoration:none;background:transparent none;border:solid 1px rgba(255,255,255,0.25);border-radius:25px}
+.tradechange-pagination > li a{background-color:transparent}
+.tradechange-pagination > li > a:focus,.tradechange-pagination > li > a:hover,.tradechange-pagination > li > span:focus,.tradechange-pagination > li > span:hover{z-index:2;color:#fff;border:solid 1px rgba(255,255,255,0.25);background-color:transparent}
+.tradechange-pagination > .active > a,.tradechange-pagination > .active > a:focus,.tradechange-pagination > .active > a:hover,.tradechange-pagination > .active > span,.tradechange-pagination > .active > span:focus,.tradechange-pagination > .active > span:hover{z-index:3;color:#ff6e0a;cursor:default;background-color:transparent;border:solid 1px rgba(255,110,10,0.75)}
+.tradechange-pagination > li:first-child > a,.tradechange-pagination > li:first-child > span{margin-left:0;border-radius:25px}
+.tradechange-pagination > li:last-child > a,.tradechange-pagination > li:last-child > span{border-radius:25px}
+.tooltip.in{opacity:1}
+.tooltip.right{margin-top:-7px}
+.tooltip.right .tooltip-arrow{top:initial;bottom:0;margin-top:-5px;border-width:7px 7px 0 0;border-right-color:#cc0909}
+.tooltip-inner{height:52px;width:170px;background-color:#cc0909;border-radius:0;padding:7px 12px;font-size:13px;line-height:1.31}
+.top-slide-animation-header.ng-enter{opacity:0;top:-30px;position:relative;transition:250ms;-webkit-transition:250ms}
+.top-slide-animation-header.ng-enter.ng-enter-active{opacity:1;top:0}
+.top-slide-animation.ng-enter{opacity:0;top:-30px;position:relative;transition:250ms;-webkit-transition:250ms;transition-delay:70ms}
+.top-slide-animation.ng-enter.ng-enter-active{opacity:1;top:0}
+.top-slide-animation.ng-enter-stagger{transition-delay:70ms;animation-delay:70ms}
+.header{font-size:17px;color:#fff;padding:27px 0 39px}
+.header .logo{padding:14px 0}
+.header .slogan{text-align:left;padding:15px 0;display:inline-block;border-bottom:solid 1px rgba(151,151,151,0.25)}
+.header .language-switcher,.header .login{display:inline-block}
+.header .login span{font-family:Rubik,sans-serif;font-size:13px;text-align:left;color:#fff}
+.header .logout .user-id{font-size:17px;font-family:Rubik,sans-serif;text-align:left;padding-right:15px;padding-top:15px}
+.header .logout .user-id a,.header .logout .user-id a:hover{font-size:17px;color:#fff;text-decoration:none}
+.header .logout .user-id .fa{color:#fd6d0a;background-color:transparent;width:18px;font-size:19px}
+.header .logout .tradechange-link,.header .logout .tradechange-btn{width:71px;padding:6px 0;margin-top:10px;font-size:13px}
+.header .language-switcher{padding:15px 20px 0 0}
+.header .personal-area a.tradechange-link{height:34px;font-family:Rubik,sans-serif;font-size:17px;font-weight:700;text-align:left;color:#fff;padding-left:0;padding-right:0}
+.header .personal-area a.tradechange-link:hover{text-decoration:none}
+.header .personal-area{text-align:center;padding-top:10px}
+.header .personal-area a{margin-left:15px;margin-right:15px;border-bottom:solid 1px #979797}
+.header .personal-area a.selected{border-bottom:solid 1px #ff6e0a}
+.header .personal-area a.selected i{color:#ff6e0a}
+.header .personal-area-area-icon{padding-bottom:8px}
+.menu{padding-top:60px;font-weight:500}
+.menu .btn-link{font-size:15px;font-weight:500;color:#fff}
+.menu .btn-link:hover{text-decoration:none}
+.menu .btn-support{margin-top:-8px}
+.menu nav li{font-size:15px;color:#fff;padding:0;margin-left:35px}
+.menu nav li:first-child{margin-left:0}
+.menu nav li a{color:#fff;padding:0 0 19px}
+.nav > li > a:focus,.nav > li > a:hover{text-decoration:none;background-color:transparent}
+.menu nav li{box-sizing:border-box;border-bottom:5px solid transparent}
+.menu nav li:hover,.menu nav li.active{border-bottom:5px solid #ff6e0a}
+.menu nav li:hover a,.menu nav li.active a{color:#ff6e0a}
+.exchange-progress{margin-top:90px;width:103px}
+.exchange-progress li{margin-top:40px}
+.exchange-progress li:first-child{margin-top:0}
+.exchange-progress-step{position:relative;font-size:13px;line-height:1.46;text-align:center;color:#fff}
+.exchange-progress-step img{margin-bottom:10px}
+.exchange-progress-step span{position:absolute;top:10px;left:41px;font-size:40px;font-weight:300}
+.exchange-progress-step.pending{color:#6d7190}
+.exchange-progress-step.done span{top:0;left:16px;color:#80CB12}
+.exchange-info{line-height:1.67}
+.select-direction .currencies{margin-top:37px}
+.select-direction .currency{position:relative;overflow:hidden;margin-top:20px;height:56px;font-size:22px;font-weight:300;text-align:left;border-bottom:solid 1px rgba(151,151,151,0.25);cursor:pointer}
+.select-direction .currency span,.select-direction .currency div{display:inline-block;vertical-align:middle;}
+.select-direction .currency .background{position:absolute;width:100%;height:0;background-image:linear-gradient(to top,rgba(255,129,65,0.19),rgba(255,183,117,0));bottom:0}
+.select-direction .currency:hover .background,.select-direction .currency.active .background{animation:vertical-stretch .25s ease-in-out;height:100%}
+.select-direction .currency .ico{width:38px;margin-right:5px;text-align:center;vertical-align:middle;height:38px}
+.select-direction .currency .ico img{max-width:100%;max-height:100%;}
+.select-direction .currency .title,.select-direction .currency .rate{display:block}
+.select-direction .currency .rate{font-size:13px;margin-top:5px}
+.select-direction .currency .ps-name{font-weight:400}
+.select-direction .currency .chevron-right{position:absolute;top:3px;right:-10px}
+.select-direction .target-currencies .currency .ico{vertical-align:top;margin-top:2px}
+.select-direction .currency.active{border-bottom:solid 3px #ff6e0a;animation:selected-currency-border .25s ease-in-out}
+.select-direction .currency.active .chevron-right{right:10px;animation:selected-currency-chevron .25s ease-in-out}
+.select-direction .currency[disabled]{opacity:.25;cursor:not-allowed}
+.select-direction .currency[disabled] .background{display:none;animation:none}
+.select-direction .currency[disabled].ng-enter{opacity:0}
+.select-direction .currency[disabled].ng-enter.ng-enter-active{opacity:.25}
+.statistics{margin-top:25px;text-align:left}
+.statistics li{margin-top:20px}
+.statistics li:first-child{margin-top:0}
+.statistics .value{font-size:25px;font-weight:300}
+.statistics .statistics-animated-value{position:relative}
+.statistics .statistics-animated-value .char-container{position:relative;overflow:hidden;display:inline-block}
+.statistics .statistics-animated-value .hidden-char{opacity:0}
+.statistics .statistics-animated-value .char{position:absolute}
+.statistics .statistics-animated-value .char.ng-enter{animation:show-changed-statistics-value .25s ease-out}
+.statistics .statistics-animated-value .char.ng-leave{animation:hide-changed-statistics-value .25s ease-out}
+.statistics .name{font-size:13px;margin-top:5px}
+.last-exchanges{text-align:center}
+.last-exchanges h4{width:164px;height:20px;object-fit:contain;font-size:17px;font-weight:500;text-align:left;color:#fff;margin-top:30px}
+.exchanges-container{position:relative;width:190px;overflow:hidden}
+.last-exchanges .exchange{margin-top:20px;position:relative;border-radius:5px;border:solid 1px rgba(151,151,151,0.25);padding:15px;width:190px}
+.exchange.ng-enter{animation:show-exchange .25s ease-out}
+.exchange.ng-leave{animation:hide-exchange .5s ease-out}
+.last-exchanges .exchange .rate{font-size:17px;font-weight:300;line-height:1.12;color:#fff;margin-top:10px}
+.last-exchanges .exchange .datetime{font-size:11px;line-height:1.73;text-align:center;color:#6d7190;margin-top:5px}
+.last-exchanges .icons img{height:25px}
+.last-exchanges .icons span{margin:0 5px}
+.last-exchanges .icons{font-size:20px}
+.transaction{font-size:19px;line-height:1.58}
+.transaction form{margin-top:20px}
+.transaction h2{font-size:17px;font-weight:700;margin-bottom:20px}
+.transaction .form-group{margin-bottom:0}
+.transaction .control-label{font-size:15px;text-align:left;font-weight:400;color:#6d7190}
+.transaction .form-control-static{font-size:15px}
+.transaction .help-block{font-size:13px;color:#fff;margin-top:-7px}
+.transaction .info{border-radius:8px;background-image:radial-gradient(circle at 50% 6%,rgba(77,83,120,0.75),rgba(56,60,95,0.2));box-shadow:0 1px 3px 0 #0b072f;font-size:13px;line-height:1.46;margin-top:10px;padding:25px}
+.transaction .info img{float:left;margin-right:15px;height:60px}
+.transaction .info p{margin-bottom:15px}
+.transaction .info a{font-weight:500;color:#36a3ff}
+.transaction .bottom-info{border-radius:8px;background-color:rgba(0,0,0,0);box-shadow:0 15px 34px 0 rgba(10,7,47,0.8);padding:23px 27px 36px}
+.transaction .button-cancel{width:130px;height:47px}
+.transaction .button-cancel:hover:not(:disabled){background-color:#D10F1A;border-color:#D10F1A}
+.transaction .new-exchange{margin-right:10px;width:207px}
+.transaction .repeat-exchange{margin-left:10px;width:207px}
+.transaction .repeat-exchange img{margin-top:-2px}
+.transaction .reward{border-radius:8px;background-image:radial-gradient(circle at 50% 6%,rgba(77,83,120,0.35),rgba(28,35,62,0.2));box-shadow:0 1px 3px 0 #0b072f;height:100%;width:268px;margin-left:24px}
+.transaction .reward .reward-circle{position:relative;width:74px;height:74px;border-radius:50%;background-image:linear-gradient(to bottom,#ff891c,#fb5400);padding-top:15px;margin:10px auto;font-family:Rubik,sans-serif;font-size:25px;font-weight:500;text-align:center;color:#ff6e0a;z-index:2}
+.transaction .reward .reward-circle::before{position:absolute;top:3px;bottom:3px;left:3px;right:3px;background:radial-gradient(circle at 50% 6%,#4d5378,rgba(56,60,95,1));content:'';z-index:-1;border-radius:50%}
+.transaction .reward .reward-text{font-family:Rubik,sans-serif;font-size:19px;line-height:1.32;text-align:center;color:#fff}
+.transaction .reward .reward-notification{font-family:Rubik,sans-serif;font-size:15px;line-height:1.53;text-align:center;color:#fff;margin-top:20px;margin-bottom:20px}
+.transaction .privat24-pending-steps{font-size:17px;font-family:Rubik,sans-serif}
+.transaction ol.privat24-pending-steps{counter-reset:myCounter;line-height:1.8em;padding-left:0}
+.transaction .privat24-pending-steps li{list-style:none;position:relative;padding-left:40px;margin-bottom:25px;line-height:1.58}
+.transaction .privat24-pending-steps li:before{content:counter(myCounter);counter-increment:myCounter;position:absolute;top:0;left:0;text-align:center;background:#fff;color:#1d1d3d;border-radius:1em;font-size:14px;font-weight:500;margin-top:4px;line-height:25px;width:25px;height:25px}
+.transaction .privat24-pending-steps a.tradechange-link,.transaction .privat24-pending-steps a.tradechange-link:hover{font-size:17px}
+.transaction .privat24-money-request p{margin-bottom:30px}
+.transaction .privat24-money-request .statement-loader{margin-left:10px}
+.transaction .privat24-money-request .statement-picture{width:100%}
+.transaction .privat24-money-request .privat24-money-request-title{font-size:22px;font-weight:500;line-height:1}
+.transaction .privat24-money-request .privat24-money-request-description{font-size:17px;line-height:1.47}
+.transaction .privat24-money-request .privat24-money-request-not-found{font-weight:500;line-height:1.16}
+.transaction .privat24-money-request .privat24-money-request-not-found i{font-weight:400}
+.transaction .privat24-pending .info .h3{margin-top:5px}
+.btn-copy{width:1em;height:1em;margin-top:-.3em;cursor:pointer}
+.tariffs .currency{font-size:21px;font-weight:500;line-height:1.05;text-align:left;color:#fff}
+.tradechange-table > thead > tr > th{border-top:none;border-left:none;border-right:none;color:#6d7190;font-weight:400;padding:0 0 10px;margin:0 0 5px;border-bottom:solid 2px rgba(151,151,151,.25)}
+.tradechange-table > tbody > tr > td{font-size:17px;padding:16px 0 8px;border:none}
+.tariffs .table > tbody > tr > td{cursor:pointer}
+.tradechange-table .currency-logo,.tariffs .table .currency-logo{width:23px;height:24px}
+.tradechange-table .disabled-direction,.tariffs .table .disabled-direction{opacity:.5;pointer-events:none}
+.tradechange-table tbody tr .background,.tariffs .table tbody tr .background{width:97%;background-image:linear-gradient(to top,rgba(255,129,65,0.19),rgba(255,183,117,0));position:absolute;max-height:40px;max-width:97%;left:15px;margin-top:-10px}
+.tradechange-table tbody tr:hover .background,.tariffs .table tbody tr:hover .background{animation:selected-table-row 250ms ease-in-out;height:100%;opacity:.8}
+.statistics .row{font-size:17px;padding:16px 0 8px}
+.partner-menu{margin-top:90px}
+.partner .menu-item{position:relative;overflow:hidden;height:50px;margin-top:20px;font-size:22px;font-weight:400;text-align:left;border-bottom:solid 1px rgba(151,151,151,0.25);cursor:pointer}
+.partner .menu-item span,.partner .menu-item div{display:inline-block}
+.partner .menu-item .background{position:absolute;width:100%;height:0;background-image:linear-gradient(to top,rgba(255,129,65,0.19),rgba(255,183,117,0));bottom:0}
+.partner .menu-item:hover .background,.partner .menu-item.active .background{animation:vertical-stretch .25s ease-in-out;height:100%}
+.partner .menu-item .chevron-right{position:absolute;top:3px;right:-10px}
+.partner .menu-item.active{border-bottom:solid 3px #ff6e0a;animation:selected-currency-border .25s ease-in-out}
+.partner .menu-item.active .chevron-right{right:10px;animation:selected-currency-chevron .25s ease-in-out}
+.partner{line-height:1.58}
+.partner h2{font-size:17px;font-weight:700;margin-bottom:30px}
+.partner .form-group{margin-bottom:0}
+.partner .control-label{font-size:15px;text-align:left;font-weight:400;color:#6d7190}
+.partner .form-control-static{font-size:15px}
+.partner .info{border-radius:8px;background-image:radial-gradient(circle at 50% 6%,rgba(77,83,120,0.75),rgba(56,60,95,0.2));box-shadow:0 1px 3px 0 #0b072f;font-size:13px;line-height:1.46;margin-top:10px;padding:25px}
+.partner .info img{float:left;margin-right:15px;height:60px}
+.partner .info p{margin-bottom:15px}
+.partner .bottom-info{border-radius:8px;background-color:rgba(0,0,0,0);box-shadow:0 15px 34px 0 rgba(10,7,47,0.8);padding:23px 27px 36px}
+.timer{display:inline-block;font-size:19px;font-weight:300;border-radius:100px;background-color:#181534;padding:3px 10px;min-width:100px}
+.timer .round-progress-wrapper{float:left;margin:2px 5px -7px -5px}
+.wide .timer{min-width:130px}
+.footer{background-color:#f4f4f4;color:#4a4a4a;padding-top:27px;padding-bottom:34px;font-size:13px;line-height:1.69}
+.about-service,.terms-of-use{line-height:1.67}
+.about-service h1,.terms-of-use h1{margin:35px 0}
+.text-muted{color:#6d7190}
+.text-primary{color:#fff}
+.text-important{color:#ff6e0a}
+.text-light{font-weight:300}
+.text-help{font-size:13px;color:#fff;line-height:1.46}
+.text-help a{font-weight:500;color:#36a3ff}
+.help-block{font-size:13px;color:#6d7190}
+.help-block.for-static{margin-top:-7px}
+.alert-danger,.alert-success{padding:14px 23px;border-radius:10px 10px 0 0;border-bottom:3px solid #fff;font-size:13px;line-height:1.46;background-color:transparent;color:#fff}
+.alert-danger{background-image:linear-gradient(to top,rgba(255,56,56,0.19),rgba(255,183,117,0.04));border-color:#df2525}
+.alert-success{background-image:linear-gradient(to top,rgba(56,255,56,0.19),rgba(183,255,117,0.04));border-color:#80cb12}
+select option{background-color:#222648}
+.pagination > li a{background-color:transparent}
+.pagination > li > a:focus,.pagination > li > a:hover,.pagination > li > span:focus,.pagination > li > span:hover{background-color:transparent}
+.pagination > .disabled > a,.pagination > .disabled > a:focus,.pagination > .disabled > a:hover,.pagination > .disabled > span,.pagination > .disabled > span:focus,.pagination > .disabled > span:hover{opacity:.1}
+.fa.icon-color{color:#ff6e0a}
+.user-type-toggle{width:150px;height:43px;border:solid 2px #464e6b;padding-top:10px;text-align:center;cursor:pointer}
+.user-type-toggle.left{margin-right:-2px;border-right:none;border-top-left-radius:100px;border-bottom-left-radius:100px}
+.user-type-toggle.right{margin-left:-2px;border-left:none;border-top-right-radius:100px;border-bottom-right-radius:100px}
+input.user-type-toggle{display:none}
+input.user-type-toggle ~ label.user-type-toggle.selected.left,input.user-type-toggle ~ label.user-type-toggle.selected.right{background-image:linear-gradient(to top,#ff7e09,#f95901);box-shadow:inset 1px 2px 0 0 rgba(0,0,0,0.2)}
+.transform-90{-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
+.transform-270{-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-o-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}
+.member{font-size:15px;font-family:Roboto,Helvetica,sans-serif;line-height:1.6;text-align:left;color:#fff}
+.member-level-circle{width:80px;height:80px;line-height:80px;text-align:center;position:relative}
+.member-level-circle .member-level-value{position:absolute;top:1px;width:80px;text-align:center;background:no-repeat center;}
+.member-level-text{line-height:18px;font-family:Rubik,sans-serif;font-size:15px;color:#fff;width:188px;margin-left:-55px;margin-top:80px}
+.member-level-text.selected{font-weight:700}
+.member-level-text-details{font-family:Rubik,sans-serif;font-size:13px;color:#6d7190;line-height:25px;text-align:center}
+.member .member-level-circle .member-level-value{padding-left:5px}
+.levels-block{margin-bottom:100px}
+.member .medal{width:89px;height:186px;object-fit:contain}
+.member .example{width:420px;height:280px;border-radius:10px;border:2px dashed rgba(255,255,255,0.25);box-shadow:0 0 50px rgba(0,0,0,0.5)}
+.member .medal-container{width:130px}
+.member .example .info{width:26px;height:26px;object-fit:contain;margin-right:5px}
+.member .example .example-header{margin-top:25px;margin-bottom:20px;font-weight:700;font-size:19px}
+.member a.link-hide-example,.member a.link-hide-example:hover{font-family:Rubik,sans-serif;font-size:15px;text-align:left;color:#fff;border-bottom:dashed 1px #fd6d0a;text-decoration:none;padding:0;position:relative}
+.member a.link-hide-example-icon{width:35px}
+.member .link-hide-example .line-left{position:absolute;width:40%;height:1px;border:1px solid #494e70;top:20px;left:26px}
+.member .link-hide-example .line-right{position:absolute;width:37%;height:1px;border:1px solid #494e70;top:20px;right:30px}
+.member .level-spliter-line{width:96px;height:1px;opacity:.5;border:solid 1px #6d7190;margin-top:40px}
+.member .level-spliter-line.started.left,.member .level-spliter-line.passed{border-color:#ff6e0a}
+.member .level-spliter-line.started{width:45px}
+.member .level-spliter-line.started.point{width:6px;height:6px;margin-top:38px;border-radius:5px;background-color:#ff6e0a;border-color:#ff6e0a}
+.member .marker{position:relative;height:24px;border-radius:100px;background-color:#ff6e0a;font-size:11px;min-width:66px}
+.member .marker span{top:-27px;left:20%;position:absolute}
+.member .marker:before{content:'';position:absolute;top:-6px;border:3px solid transparent;border-bottom:3px solid #ff6e0a;margin:0 48%;left:0}
+.member .statistic{margin-top:20px;margin-bottom:50px}
+.member .statistic-value{height:47px;font-family:Rubik,sans-serif;font-size:40px;font-weight:300;text-align:left;color:#fff;width:auto;margin-right:15px}
+.member .statistic-value.personal{color:#fd6d0a}
+.member .statistic-value.personal ~ div{margin-bottom:20px}
+.member .statistic-description{width:101px;height:36px;font-family:Rubik,sans-serif;font-size:15px;line-height:1.2;text-align:left;color:#6d7190;margin-top:10px}
+.member .statistic-spliter{width:37px;height:0;border-bottom:1px solid #494e70;-webkit-transform:translateY(28px) translateX(0px) rotate(120deg);margin:0 5px}
+.member .statistic-value.discount{width:auto;margin-right:15px}
+.member .tradechange-input input{font-size:15px;height:30px}
+.member .tradechange-table th.tradechange-input{padding-bottom:8px;position:relative}
+.member .tradechange-table th.tradechange-input .fa{position:absolute;top:18px;left:5px}
+.member .tradechange-table > tbody > tr > td{font-size:15px}
+.member .tradechange-table > tbody > tr > td.exchange div{padding-left:1px;padding-right:1px}
+.member .tradechange-table > tbody > tr > td .currency-logo-container{margin-right:6px}
+.member .tradechange-table > tbody > tr > td .currency-logo{width:24px;height:24px}
+.member .tradechange-table th{font-weight:500;font-family:Rubik,sans-serif;font-size:13px}
+.member .tradechange-table th .tradechange-link:hover,.member .tradechange-table th .tradechange-link{color:#6d7190;font-weight:500;font-family:Rubik,sans-serif;font-size:13px;text-decoration:none}
+.member .tradechange-table th.status{min-width:147px}
+.member .tradechange-table > tbody > tr > td .currency{width:15px}
+.member .tradechange-table th.date-time{min-width:174px}
+.member .tradechange-table th.date-time .fa{font-size:8px}
+.member .tradechange-table th.tradechange-input{min-width:115px}
+.member .tradechange-input input{width:115px}
+.member .tradechange-table th.tradechange-input input{border-radius:3px;font-size:15px;height:27px;background-color:#111430;border-bottom:none;padding-left:25px;min-width:106px;width:90%}
+.tradechange-table th.tradechange-input label{font-size:13px;font-family:Rubik,sans-serif;font-weight:500;text-align:left;margin-left:25px;opacity:1;transition:.25s;color:#6d7190}
+.tradechange-table th.tradechange-input input:focus ~ label,.tradechange-table th.tradechange-input input.not-empty ~ label{opacity:0;top:18px;transition:.25s}
+.member table .tradechange-table{font-size:15px}
+.member .history-header{margin-bottom:20px}
+.member .date-interval{padding-top:10px}
+.member .date-interval div{margin-left:20px}
+.member .date-interval-spliter{width:11px;height:1px;margin-top:25px;border:solid 1px #6d7190}
+.member .label-date-interval{margin-top:17px;font-family:Rubik,sans-serif;font-size:15px;font-weight:500;color:#6d7190}
+.member .member-name{text-align:center;height:71px;font-family:Rubik,sans-serif;font-size:60px;font-weight:700;color:#fff}
+.tradechange-btn.remind-password,.tradechange-btn.registration{color:#fff;font-family:Rubik,sans-serif;font-size:15px;font-weight:500}
+.tradechange-btn.remind-password{margin-top:10px}
+.member-settings h2{font-family:Rubik,sans-serif;font-size:60px;font-weight:700;color:#fff}
+.member-settings .member-settings-header{text-align:center;margin-bottom:100px}
+.login-header{text-align:center}
+.login [type="checkbox"]:not(:checked),.login [type="checkbox"]:checked{position:absolute;left:-9999px}
+.login [type="checkbox"]:not(:checked) + label,.login [type="checkbox"]:checked + label{position:relative;padding-left:27px;padding-top:2px;cursor:pointer}
+.login [type="checkbox"]:not(:checked) + label:before,.login [type="checkbox"]:checked + label:before{content:'';position:absolute;left:0;top:0;width:18px;height:18px;border:2px solid #ccc;background:transparent;border-radius:4px;box-shadow:inset 0 1px 3px rgba(0,0,0,.1)}
+.login label.checkbox:before,.login label.checkbox:hover:before{border:2px solid #464e6b!important;font-family:Rubik,sans-serif;font-size:15px;text-align:center;color:#fff}
+.login [type="checkbox"]:not(:checked) + label:after{opacity:0;transform:scale(0)}
+.login [type="checkbox"]:not(:checked) + label:after,.login [type="checkbox"]:checked + label:after{content:'✔';position:absolute;top:3px;left:3px;font-size:18px;line-height:.8;color:#ff7e09;transition:all .2s}
+.remind-password .tradechange-input input,.registration .tradechange-input input,.login .tradechange-input input,.remind-password button.tradechange-btn,.registration button.tradechange-btn,.login button.tradechange-btn,.member-settings button.tradechange-btn{width:300px}
+.page-loader{margin:225px 0 0;text-align:center}
+.page-loader svg{fill:#FF6700}
+.button-loader .button-loader-spinner{display:none}
+.button-loader .button-loader-spinner svg{fill:#fff;width:30px;height:17px;margin-bottom:-4px}
+.button-loader.button-loader-busy .button-loader-spinner{display:inherit}
+.button-loader.button-loader-busy .button-loader-content{display:none}
+.error-page .error-code{font-size:170px;font-weight:300}
+.error-page .error-text{font-weight:300;font-size:27px;line-height:1.2}
+.error-page .error-description{font-size:15px;line-height:1.67}
+.error-page.service-unavailable .service-unavailable-content{width:416px;margin:auto}
+.error-page.service-unavailable .header{background:none}
+.error-page.service-unavailable .error-code{margin-top:10%}
+.error-page.service-unavailable .error-description{margin-top:45px}
+.error-page.page-not-found{width:800px;height:600px;margin:auto;padding-top:100px}
+.error-page.page-not-found .error-code{color:#fff;font-size:150px}
+.error-page.page-not-found .error-text{color:#fff}
+.error-page.page-not-found .gotomain-button,.error-page.page-not-found .gotomain-button:hover{margin-top:40px;width:160px;border:none}

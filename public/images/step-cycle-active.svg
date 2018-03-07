@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="50%" y1="3.54751276%" x2="50%" y2="99.2406728%" id="linearGradient-1">
+            <stop stop-color="#FF891C" offset="0%"></stop>
+            <stop stop-color="#FB5400" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Napravlenie" transform="translate(-46.000000, -182.000000)">
+            <g id="Progress" transform="translate(32.000000, 183.000000)">
+                <g id="1" transform="translate(15.000000, 0.000000)">
+                    <circle id="Oval-2" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="square" cx="36.5" cy="36.5" r="36.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

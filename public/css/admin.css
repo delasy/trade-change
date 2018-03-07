@@ -1,0 +1,33 @@
+:root{
+    --app-gradient-1:radial-gradient(circle at 8.75% 8.45%, #003973, transparent 100%),radial-gradient(circle at 94.06% 82.83%, #E5E5BE, transparent 100%),radial-gradient(circle at 50% 50%, #668cc2, #668cc2 100%);
+    --app-gradient-2:radial-gradient(circle at 1.98% 3.00%, #348F50, transparent 100%),radial-gradient(circle at 98.02% 98.00%, #56B4D3, transparent 100%),radial-gradient(circle at 50% 50%, #668cc2, #668cc2 100%);
+    --app-gradient-3:radial-gradient(circle at 1.98% 74.02%, #E55D87, transparent 100%),radial-gradient(circle at 98.02% 35.97%, #5FC3E4, transparent 100%),radial-gradient(circle at 50% 50%, #0cc285, #0cc285 100%);
+    --app-gradient-4:radial-gradient(circle at 1.98% 2.00%, #B993D6, transparent 100%),radial-gradient(circle at 98.02% 92.01%, #8CA6DB, transparent 100%),radial-gradient(circle at 50% 50%, #0cc285, #0cc285 100%);
+    --app-gradient-5:radial-gradient(circle at 1.98% 89.01%, #7474BF, transparent 100%),radial-gradient(circle at 98.02% 21.98%, #348AC7, transparent 100%),radial-gradient(circle at 50% 50%, #0cc285, #0cc285 100%);
+    --app-gradient-6:radial-gradient(circle at 1.98% 40.96%, #00c6ff, transparent 100%),radial-gradient(circle at 98.02% 52.04%, #0072ff, transparent 100%),radial-gradient(circle at 50% 50%, #0cc285, #0cc285 100%);
+    --app-gradient-7:radial-gradient(circle at 1.98% 85.01%, #134E5E, transparent 100%),radial-gradient(circle at 98.02% 18.98%, #71B280, transparent 100%),radial-gradient(circle at 50% 50%, #0cc285, #0cc285 100%);
+    --app-gradient-8:radial-gradient(circle at 1.98% 20.98%, #4b6cb7, transparent 100%),radial-gradient(circle at 98.02% 20.98%, #182848, transparent 100%),radial-gradient(circle at 50% 50%, #0cc285, #0cc285 100%);
+}
+
+.admin-statistic-cell:nth-child(8n+1){background:var(--app-gradient-1,#fff);}
+.admin-statistic-cell:nth-child(8n+2){background:var(--app-gradient-2,#fff);}
+.admin-statistic-cell:nth-child(8n+3){background:var(--app-gradient-3,#fff);}
+.admin-statistic-cell:nth-child(8n+4){background:var(--app-gradient-4,#fff);}
+.admin-statistic-cell:nth-child(8n+5){background:var(--app-gradient-5,#fff);}
+.admin-statistic-cell:nth-child(8n+6){background:var(--app-gradient-6,#fff);}
+.admin-statistic-cell:nth-child(8n+7){background:var(--app-gradient-7,#fff);}
+.admin-statistic-cell:nth-child(8n+8){background:var(--app-gradient-8,#fff);}
+
+.m-t-10{margin-top:10px;}
+.m-b-10{margin-bottom:10px;}
+.m-t-16{margin-top:16px;}
+.m-b-16{margin-bottom:16px;}
+
+body.admin{background:#e9e9e9}
+.admin-main{padding:16px;overflow:auto;}
+
+.admin-statistic-grid{grid-gap:16px;margin-top:6px;}
+.admin-statistic-cell{box-sizing:border-box;background-color:#fff;padding:24px 16px;color:#fff;border-radius:2px;}
+.admin-statistic-cell .mdc-typography--display1{text-align:right;}
+.admin-statistic-cell .mdc-card__action i{vertical-align:middle;display:inline-block;}
+.admin-form-card{background:#fff;}
